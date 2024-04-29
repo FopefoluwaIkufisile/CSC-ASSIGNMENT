@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+span.hey{
+ color: red;
+}
+body{
+
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+img#me{
+    position: fixed;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    max-height: 610px;
+}
+div.body-items{
+    display: flex;
+    
+}
+a#pfp{
+    color: black;
+    text-decoration-color: white;
+    text-decoration: none;
+}
+div.info-box{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: 500px;
+    height: 100%;
+}
+h2#profile{
+    text-align: center;
+}
+h1.hi{
+    text-align: center;
+    padding-top: 5px;
+}
+span.pf-keys{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 0;
+    width: 100%;
+    cursor: pointer;
+    user-select: none;
+    transition: .2s linear;
+    text-transform: uppercase;
+    
+}
+span.pf-keys:hover{
+    transform: translateY(-3px);
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+p.pf-key{
+    padding-bottom: 15px;
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    text-align: center;
+}
+hr#line{
+    color: red;
+    background-color: red;
+}
+.pf{
+    display: flex;
+    padding: 10px 50px 10px;
+    gap: 20px;
+}
+div.pf1{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    float: left;
+}
+div.pf2{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    float: right;
+}
+span.name{
+    background-color: white;
+    padding: 10px 0;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+}
